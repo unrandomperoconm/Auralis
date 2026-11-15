@@ -1,0 +1,16 @@
+{
+  "name": "auralis-server",
+  "version": "1.0.0",
+  "description": "Servidor del ranking global de Auralis (sirve el juego y guarda las puntuaciones)",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "pg": "^8.11.0"
+  }
+}
